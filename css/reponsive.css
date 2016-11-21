@@ -1,0 +1,380 @@
+/*!
+ * Stylesheet Iocare v1 (http://iocare.vn/)
+ * Copyright 2015 Iocare, Inc.
+ */
+
+ @media screen and (max-width: 1200px){
+ }
+ @media screen and (max-width: 960px){
+ 	.hide-mpc {
+ 		display: none;
+ 	}
+ }
+
+ @media screen and (max-width: 768px){
+	.r_action .btn, .r_action a{
+		font-size: 12px;
+	}
+	.r_action ul.list-inline>li {
+		padding-left: 5px;
+		padding-right: 10px;
+	}
+	.quick-contact {
+		font-size: 13px;
+	}
+	body {
+		background-color: #fff;
+		font-size: 14px;
+	}
+	.static-ads {
+		display: none;
+	}
+	.search-advance .form-group {
+		margin-bottom: 15px;
+	}
+	.search-advance .form-select-advane {
+		padding-right: 15px !important;
+		margin-bottom: 15px;
+ 	}
+ 	/* modified bootstap */
+ 	.container {
+ 		width: 100%;
+ 	}
+ 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border-color: #e7e7e7;
+	}
+	.navbar-collapse {
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    overflow-x: visible;
+	    -webkit-overflow-scrolling: touch;
+	    border-top: 1px solid transparent;
+	    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+	}
+	.navbar-toggle {
+	    position: relative;
+	    float: right;
+	    padding: 9px 10px;
+	    margin-top: 8px;
+	    margin-right: 15px;
+	    margin-bottom: 8px;
+	    background-color: transparent;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	}
+	
+ 	.navbar-toggle {
+ 		display: inline-block;
+ 		float: right;
+ 	}
+ 	.navbar-nav, .navbar-header, .navbar-nav>li{
+ 		float: none;
+ 	}
+ 	.navbar-collapse.in {
+	    overflow-y: auto;
+	}
+	.navbar-collapse.collapse.in {
+	    display: block !important;
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-collapse.in {
+	    overflow-y: auto;
+	}
+	.nav>li {
+	    position: relative;
+	    display: block;
+	}
+	.menu .navbar {
+		position: relative;
+	}
+	.btn-search {
+	    font-size: 25px;
+	}
+	.health-facility .col-2 {
+		width: 33.33%;
+		margin-bottom: 15px;
+	}
+	.newest-comment .ads-right {
+		margin-top: 20px;
+	}
+	.hide-tablet {
+		display: none;
+	}
+	.reply .reply-from {
+		background-position: 7% 50px;
+	}
+	.nav-tabs>li>a {
+		margin-right: 0;
+	}
+	.nav-default>li>a {
+		padding: 10px 7px;
+		font-size: 14px;
+	}
+	.form-register,
+	.form-login,
+	.form-contact {
+		padding: 0;
+	}
+
+	.tag-block {
+		padding-top: 0;
+	}
+	.tag-block h4 {
+		line-height: 1.5;
+	}
+	.tag-block span {
+		display: block;
+	}
+	.items .images, 
+	.list .images {
+		padding: 0;
+	}
+	.hospital .item-manager {
+		margin-bottom: 20px;
+	}
+	.input-append .add-on {
+		left: 0;
+	    width: 45px;
+	    right: 100%;
+	}
+	.input-append {
+	    padding-left: 45px;
+	}
+	.group-line .line-data-left,
+	.group-line .line-data-right {
+		width: 50%;
+	}
+ }
+
+ @media screen and (max-width: 767px){
+ 	.slide {
+    	background-position: 10px 200px; 
+ 	}
+	.slide .search-absolute.center {
+		bottom: 65px;
+	}
+	.search-absolute.left {
+		z-index: 111;
+		bottom: 130px;
+	}
+	.health-location .form-group, .doctors-heading .form-group {
+		width: 100%;
+		margin: 0;
+		height: 60px;
+	}
+	.health-location .form-inline, .doctors-heading .form-inline {
+		float: left;
+		width: 100%;
+	}
+	.health-location, .doctors .doctors-heading {
+	    height: auto;
+	    float: left;
+	    width: 100%;
+	}
+	.health-facility .col-2 {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.btn.all {
+		position: relative;
+	}
+
+	.owl-left, .owl-right, .btn.all {
+		font-size: 16px;
+	    margin: 5px;
+	    padding: 10px 30px;
+	    background-color: #fff;
+	    border-color: #eaedf2;
+	    font-weight: bold;
+	}
+	.ads-right {
+		margin-top: 20px;
+	}
+	.quick-contact {
+		display: none;
+	}
+	.search {
+		margin-top: 0;
+		width: 100%;
+    	padding: 0 15px;
+    	text-align: left;
+	}
+	.search .form-search {
+    	display: inline;
+	    width: 85%; 
+	}
+	.hide-tablet {
+		display: none;
+	}
+
+	.user-feel .images {
+		float: none;
+		margin: 0 auto 20px auto;
+	}
+	.user-feel .reply-title,
+	.user-feel .reply-summary {
+		clear: both;
+	}
+	.user-feel .hospital,
+	.user-feel .feel,
+	.user-feel .reply-title,
+	.user-feel .reply-summary {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.group-line .line-block {
+		margin-right: 15px;
+	}
+ }
+
+ @media screen and (max-width: 640px){
+ 	.slide {
+ 		min-height: 200px;
+ 	}
+	.sidebar, .right-sidebar, .hide-mobile {
+		display: none;
+	}
+	.pagination>li:first-child>a, .pagination>li:first-child>span {
+		display: inline-block;
+	}
+	.pagination>li:last-child>a, .pagination>li:last-child>span {
+		display: inline-block;
+	}
+	.pagination>li>a, .pagination>li>span {
+		display: none;
+	}
+	.nice-selector.block, .nav-tabs>li {
+		width: 100%;
+	}
+	.items .images, .list .images {
+		padding: 0;
+	}
+	.item .list, 
+	.block .list {
+		padding: 20px 0;
+	}
+	.reply-title a {
+		clear: both;
+		display: block;
+    	padding: 5px 0;
+	}
+	.node-v,
+	.reply,  
+	.reply .reply-summary {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.tab-content .node-v,
+	.tab-content .reply,  
+	.tab-content .reply .reply-summary {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.reply .reply-summary {
+		padding-top: 10px;
+		clear: both;
+	}
+	.reply .reply-title {
+		padding-top: 10px;
+	}
+	.box-rating {
+		border-right: 0 !important;
+	}
+	.box-action-button {
+		float: none;
+		width: 100%;
+	}
+	.reply .reply-from {
+		background-position: 3% 60px;
+	}
+	.form-register .no-padding-right {
+		padding-right: 15px !important;
+	}
+	.search-advance .form-group .form-group {
+		margin-bottom: 20px;
+	}
+	.show-on-mobile {
+		display: block !important;
+	}
+	.ptb40 {
+		padding-top: 0px;
+    	padding-bottom: 0px;
+	}
+	
+	.tag-block .btn {
+		width: 50%;
+		display: inherit;
+		float: none !important;
+		margin: 10px auto 0;
+	}
+
+	.form-question .items,
+	.form-question .list {
+		position: relative;
+	}
+	.form-question .items .images, 
+	.form-question .list .images {
+		float: none;
+		margin: auto;
+	}
+	.form-question .reply-title {
+		text-align: center;
+	}
+	.form-question .reply-title,
+	.form-question .reply-summary {
+		width: 100%;
+	}
+	.form-question .reply-delete {
+		position: absolute;
+		right: 0;
+		top: 20px;
+	}
+	.group-line .line-data-left,
+	.group-line .line-data-right,
+	#search-result {
+		width: 100%;
+	}
+	.sidebar {
+		float: none !important;
+	}
+	.sub-header {
+		padding-bottom: 15px;
+	}
+ }
+
+ @media screen and (max-width: 480px){
+ 	.card .card-action {
+ 		padding:0 20px 20px 20px;
+ 	}
+   	.card .card-content .btn-action {
+   		clear: both;
+   		padding-top: 20px;
+   		padding-left: 0;
+   	}
+   	.owl-left, .owl-right, .btn.all {
+   		padding: 10px 25px;
+   	}
+   	/*.items .image {
+   		width: 33.3%;
+   		padding-right: 15px;
+   		float: left;
+   	}
+   	.items .summary {
+   		float: right;
+   		width: 66.7%;
+   		padding: 10px 0;
+   	}
+   	.items .rating {
+   		float: right;
+   		width: 66.7%;
+   		border: none;
+   	}*/
+ }
+
+ @media screen and (max-width: 320px){
+ 
+ }
